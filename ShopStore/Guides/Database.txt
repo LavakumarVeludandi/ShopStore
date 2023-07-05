@@ -1,0 +1,2 @@
+﻿Create migartion to database :- dotnet ef migrations add <Migration Name>
+Update Database with latest migrations :-  dotnet ef database Update 
