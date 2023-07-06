@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using ShopStore.Dto;
 using ShopStore.Models;
 using ShopStore.Repository.Contracts;
+using ShopStore.Util;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -56,5 +57,35 @@ public class UserController : Controller
 
         return Ok(users);
     }
+
+    [HttpPost]
+    [ProducesResponseType(204)]
+    [ProducesResponseType(400)]
+    public IActionResult CreateUser([FromQuery] UserDto user, [FromQuery] string password) //Can use [FromBody] which makes us to edit content in JSON 
+    {
+        if (user == null || password == null)
+            return BadRequest(ModelState);
+
+        if (_userRepository.CheckUser(user.Email))
+        {
+            ModelState.AddModelError("", "Email already exists");
+            return StatusCode(422, ModelState);
+        }
+
+        if (!ModelState.IsValid)
+            return BadRequest(ModelState);
+
+        var _user = _mapper.Map<User>(user);
+        _user.PasswordHash = CryptoUtil.HashString(password);
+
+        if (!_userRepository.AddUser(_user))
+        {
+            ModelState.AddModelError("", "Something went wrong while saving");
+            return StatusCode(500, ModelState);
+        }
+
+        return Ok("Successfully added a new user");
+    }
+
 }
 

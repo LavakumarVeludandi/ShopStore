@@ -14,8 +14,6 @@ public class User
     public required string LastName { get; set; }
     public required string Email { get; set; }
     public Role Role { get; set; }
-
-    [JsonIgnore]
     public required string PasswordHash { get; set; }
 }
 

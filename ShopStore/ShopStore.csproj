@@ -31,6 +31,7 @@
     <None Remove="Repository.Contracts\" />
     <None Remove="Dto\" />
     <None Remove="Constants\" />
+    <None Remove="Util\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
@@ -40,5 +41,6 @@
     <Folder Include="Repository.Contracts\" />
     <Folder Include="Dto\" />
     <Folder Include="Constants\" />
+    <Folder Include="Util\" />
   </ItemGroup>
 </Project>
