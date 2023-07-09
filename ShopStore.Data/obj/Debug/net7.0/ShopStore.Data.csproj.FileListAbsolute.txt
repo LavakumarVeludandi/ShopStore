@@ -1,0 +1,14 @@
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Data/bin/Debug/net7.0/ShopStore.Data.deps.json
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Data/bin/Debug/net7.0/ShopStore.Data.runtimeconfig.json
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Data/bin/Debug/net7.0/ShopStore.Data.dll
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Data/bin/Debug/net7.0/ShopStore.Data.pdb
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Data/obj/Debug/net7.0/ShopStore.Data.csproj.AssemblyReference.cache
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Data/obj/Debug/net7.0/ShopStore.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Data/obj/Debug/net7.0/ShopStore.Data.AssemblyInfoInputs.cache
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Data/obj/Debug/net7.0/ShopStore.Data.AssemblyInfo.cs
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Data/obj/Debug/net7.0/ShopStore.Data.csproj.CoreCompileInputs.cache
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Data/obj/Debug/net7.0/ShopStore.Data.dll
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Data/obj/Debug/net7.0/refint/ShopStore.Data.dll
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Data/obj/Debug/net7.0/ShopStore.Data.pdb
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Data/obj/Debug/net7.0/ShopStore.Data.genruntimeconfig.cache
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Data/obj/Debug/net7.0/ref/ShopStore.Data.dll

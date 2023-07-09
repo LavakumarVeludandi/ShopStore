@@ -1,0 +1,19 @@
+﻿Database:-
+    Scaffolding:
+        dotnet ef dbcontext scaffold "Host=192.168.3.65;Database=ShopStore;Username=postgres;Password=*******" Npgsql.EntityFrameworkCore.PostgreSQL -c DataContext -o Models
+    Migartion to database : dotnet ef migrations add <Migration Name>
+    Update Database with latest migration :  dotnet ef database Update 
+
+Others:
+    Issues with NpgSQL - 7.0.5 Relational should be added before adding it.
+
+User-Secrets:
+    dotnet user-secrets init
+    dotnet user-secrets set "ConnectionString:PostgreSQL" "Host=192.168.3.65;Database=ShopStore;Username=postgres;Password=*********"
+    dotnet user-secrets list
+
+Accessing in builder:
+    var builder = WebApplication.CreateBuilder(args);
+    // Add services to the container.
+    builder.Services.AddDbContext<DataContext>(options
+            => options.UseNpgsql(builder.Configuration["ConnectionString:PostgreSQL"]));
