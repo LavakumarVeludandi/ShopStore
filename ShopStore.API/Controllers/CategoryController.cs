@@ -8,7 +8,7 @@ using ShopStore.Data.Repository.Contracts;
 namespace ShopStore.API.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]/[action]")]
 public class CategoryController : Controller
 {
     private readonly ILogger<CategoryController> _logger;

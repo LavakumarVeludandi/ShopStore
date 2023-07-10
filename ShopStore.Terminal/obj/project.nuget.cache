@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "G4wxJS1MaTetqbp0CcOnwATaaFpXBu9lijbgutfvvve1nioH+V0UxoHMOyr4x/6BH7egit+t2uHc0s3D/rc2Fw==",
+  "success": true,
+  "projectFilePath": "/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/ShopStore.Terminal.csproj",
+  "expectedPackageFiles": [
+    "/Users/lavakumarveludandi/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

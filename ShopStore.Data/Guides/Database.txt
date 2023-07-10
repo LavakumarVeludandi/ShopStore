@@ -7,7 +7,7 @@
 Others:
     Issues with NpgSQL - 7.0.5 Relational should be added before adding it.
 
-User-Secrets:
+User-Secrets: https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-7.0&tabs=windows
     dotnet user-secrets init
     dotnet user-secrets set "ConnectionString:PostgreSQL" "Host=192.168.3.65;Database=ShopStore;Username=postgres;Password=*********"
     dotnet user-secrets list

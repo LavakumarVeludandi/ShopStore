@@ -20,9 +20,11 @@
 
   <ItemGroup>
     <None Remove="Controllers\" />
+    <None Remove="Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Shared\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ShopStore.Data\ShopStore.Data.csproj">

@@ -1,0 +1,17 @@
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/bin/Debug/net7.0/ShopStore.Terminal
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/bin/Debug/net7.0/ShopStore.Terminal.deps.json
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/bin/Debug/net7.0/ShopStore.Terminal.runtimeconfig.json
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/bin/Debug/net7.0/ShopStore.Terminal.dll
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/bin/Debug/net7.0/ShopStore.Terminal.pdb
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/obj/Debug/net7.0/ShopStore.Terminal.csproj.AssemblyReference.cache
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/obj/Debug/net7.0/ShopStore.Terminal.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/obj/Debug/net7.0/ShopStore.Terminal.AssemblyInfoInputs.cache
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/obj/Debug/net7.0/ShopStore.Terminal.AssemblyInfo.cs
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/obj/Debug/net7.0/ShopStore.Terminal.csproj.CoreCompileInputs.cache
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/obj/Debug/net7.0/ShopStore.Terminal.dll
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/obj/Debug/net7.0/refint/ShopStore.Terminal.dll
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/obj/Debug/net7.0/ShopStore.Terminal.pdb
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/obj/Debug/net7.0/ShopStore.Terminal.genruntimeconfig.cache
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/obj/Debug/net7.0/ref/ShopStore.Terminal.dll
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/lavakumarveludandi/Projects/C#/ShopStore/ShopStore.Terminal/obj/Debug/net7.0/ShopStore.Terminal.csproj.CopyComplete
