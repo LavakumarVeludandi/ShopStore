@@ -19,7 +19,7 @@ public static class Downloader
 					if(catergories!=null){
                         foreach (var cat in catergories)
                             {
-							Console.WriteLine(cat.CategoryId + "  " + cat.CategoryName + "  " + cat.Description);
+							Console.WriteLine(cat.CategoryId + " --- " + cat.CategoryName + " --- " + cat.Description);
                             }
                         }
                     }
@@ -30,5 +30,24 @@ public static class Downloader
 			Console.WriteLine(ex);
 		}
 	}
+
+    internal static async Task GetDesktopWallpaper(HttpClient client)
+    {
+		try
+		{
+			using(client)
+			{
+                HttpResponseMessage res = await client.GetAsync("api/Image/GetDesktopWallpaper");
+                if (res.IsSuccessStatusCode)
+                {
+					var image = await res.Content.ReadAsStreamAsync();
+                }
+            }
+		}
+		catch(Exception ex)
+		{
+			Console.WriteLine(ex);
+		}
+    }
 }
 
